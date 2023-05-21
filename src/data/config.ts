@@ -1,13 +1,13 @@
 import type { Config } from '@/types/data';
-import { enUS } from 'date-fns/locale';
+import { it } from 'date-fns/locale';
 import type { ReadonlyDeep } from 'type-fest';
 
 const config = {
   i18n: {
-    locale: enUS,
+    locale: it,
     dateFormat: 'MMMM yyyy',
     translations: {
-      now: 'now',
+      now: 'ora',
     },
   },
   meta: {
