@@ -14,7 +14,7 @@ const config = {
     title: 'Mattia Filippo De Luca - Product Manager | Product Owner',
     description:
       "Sono Mattia, un visionario esperto di Product Management e un maestro nell'arte del Product Ownership.",
-    faviconPath: '/src/assets/my-image.png',
+    faviconPath: '/src/assets/my-image.jpg',
   },
   pdf: {
     footer:
