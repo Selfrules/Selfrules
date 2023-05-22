@@ -14,7 +14,7 @@ const mainSectionData = {
   role: 'Product Manager | Product Owner ',
   details: [
     { label: 'Email', value: 'info@selfrules.org', url: 'mailto:info@selfrules.org' },
-    { label: 'From', value: 'Modena, Italia' },
+    { label: 'Da', value: 'Modena, Italia' },
   ],
   pdfDetails: [
     { label: 'Email', value: 'info@selfrules.org' },

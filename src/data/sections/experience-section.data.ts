@@ -50,7 +50,7 @@ const experienceSectionData = {
       image: import('@/assets/logos/LeadsBridge_icon_logo.jpg'),
       dates: [new Date('2021-01'), new Date('2022-12')],
       description: `
-      Nel mio ruolo di **Product Owner** presso LeadsBridge, ho tradotto le visioni in strategie concrete, guidando il prodotto verso nuovi orizzonti. Ho coordinato lo sviluppo del prodotto con gli obiettivi del business, abbracciando la filosofia *Agile* ed integrando il framework *Scrum*. Ho gestito il ciclo di vita completo del prodotto, dall'ideazione al lancio, e ho mantenuto il team concentrato su creazione di valore, l'adoption del prodotto, la ritenzione dei clienti e la riduzione dell'abbandono.
+      Nel mio ruolo di **Product Owner** presso *LeadsBridge*, ho tradotto le visioni in strategie concrete, guidando il prodotto verso nuovi orizzonti. Ho coordinato lo sviluppo del prodotto con gli *obiettivi del business*, abbracciando la filosofia *Agile* ed integrando il framework *Scrum*. Ho gestito il ciclo di vita completo del prodotto, dall'ideazione al lancio, e ho mantenuto il team concentrato su *creazione di valore*, l'adoption del prodotto, la ritenzione dei clienti e la riduzione dell'abbandono.
       `,
       tagsList: {
         title: 'Partners',
@@ -84,7 +84,7 @@ const experienceSectionData = {
       image: import('@/assets/logos/e-xtrategy-logo.jpg'),
       dates: [new Date('2016-10'), new Date('2019-01')],
       description: `
-      Nel mio ruolo di **UX e UI Designer** presso e-xtrategy, ho sviluppato design *semplici, attraenti e coinvolgenti, incorporando gli insight ottenuti attraverso la ricerca con gli utenti e l'organizzazione dei contenuti attraverso l'architettura delle informazioni.
+      Nel mio ruolo di **UX e UI Designer** presso e-xtrategy, ho sviluppato design *semplici, attraenti e coinvolgenti*, incorporando gli insight ottenuti attraverso la ricerca con gli utenti e l'organizzazione dei contenuti attraverso l'architettura delle informazioni.
 
       Ho collaborato a stretto contatto con i developer, fornendo loro gli strumenti e le direttive per elevare il loro lavoro. Con l'utilizzo di HTML e CSS, mi sono impegnato direttamente nel codice di sviluppo, assicurando l'aderenza dei design ai requisiti del progetto e il loro allineamento con gli obiettivi aziendali e le esigenze degli utenti.
       `,
