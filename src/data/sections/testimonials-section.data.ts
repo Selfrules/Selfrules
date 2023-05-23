@@ -4,35 +4,19 @@ import { github, linkedin, website } from '../helpers/links';
 
 const testimonialsSectionData = {
   config: {
-    title: 'Testimonials',
+    title: 'Referenze',
     slug: 'testimonials',
     icon: 'fa6-solid:comment',
-    visible: false,
+    visible: true,
   },
   testimonials: [
     {
-      image: '',
-      author: 'Howard Stewart',
-      relation: 'We work together as front-end developers at Google',
+      image: import('@/assets/favorites/people/matte.jpeg'),
+      author: 'Matteo Leggieri',
+      relation: 'Director of Engineers at LeadsBridge',
       content:
-        'In nec mattis sem. Morbi purus lorem, euismod ac varius at, aliquet vitae augue. Pellentesque ut facilisis felis. In sed dui blandit, aliquet odio eu, elementum leo. In facilisis dapibus tortor ac volutpat. Cras cursus nec odio maximus elementum.',
-      links: [github({ url: '#' }), linkedin({ url: '#' })],
-    },
-    {
-      image: '',
-      author: 'Jean Richards',
-      relation: 'My project manager at GitLab',
-      content:
-        'Praesent nec congue elit. Vestibulum lobortis congue ipsum, a gravida mi tempus ac. Mauris aliquet purus nibh, vel varius turpis tempus non. Nullam eget ultricies orci. Quisque nulla ante, auctor eget varius ac, imperdiet nec magna.',
-      links: [linkedin({ url: '#' })],
-    },
-    {
-      image: '',
-      author: 'Jason Fisher',
-      relation: 'My customer for sidewing.com website',
-      content:
-        'Mauris tincidunt at purus vehicula porta. Mauris eget mollis turpis. Sed iaculis rutrum pharetra. Vivamus risus quam, suscipit et semper ut, aliquet ut tellus. Donec quis auctor nunc.',
-      links: [github({ url: '#' }), website({ url: '#' })],
+        "Ho avuto l'opportunità di lavorare con **Mattia De Luca** nel ruolo di **Product Owner** presso *ActiveProspect Inc.* La sua abilità nel guidare la nostra *strategia di prodotto*, coordinando attivamente i team di *sviluppo e UX/UI*, ha avuto un impatto significativo sul successo di *LeadsBridge*.Mattia è anche un ottimo facilitatore e un ottimo comunicatore. E' stato un fruttuoso partecipare agli incontri di pianificazione delle iterazioni, le sessioni di presentazione dei prodotti e le retrospettive che ha facilitato perché tutte le persone coinvolte erano incoraggiate dalla sua energia positiva e dal modo in cui era solito **moderare discussioni sane**. Mi è piaciuto il suo *approccio innovativo* per ottenere feedback da tutti i teams coinvolti con sessioni di feedback innovative. E' stato ugualmente *appassionato del prodotto, delle persone e del processo agile* ed è stata una **grande risorsa** per il team di sviluppo. Lo raccomando senza esitazione come persona molto qualificata.",
+      links: [linkedin({ url: 'https://www.linkedin.com/in/matteo-leggieri-7a39782a/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<TestimonialsSection>;
