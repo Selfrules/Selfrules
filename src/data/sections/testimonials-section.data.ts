@@ -20,7 +20,7 @@ const testimonialsSectionData = {
     },
     {
       image: import('@/assets/favorites/people/filo.jpeg'),
-      author: 'Matteo Leggieri',
+      author: 'Filippo Ferri',
       relation: 'Product Manager',
       content:
         "Ho avuto il piacere di lavorare a stretto contatto con **Mattia** in *LeadsBridge* e poi in *ActiveProspect* e posso dire con certezza che è un **product owner** eccezionale. Mattia mostra un grande senso di *responsabilità* nei confronti dei risultati e dimostra costantemente una **forte etica del lavoro, attenzione ai dettagli** e una genuina passione per il suo ruolo. La sua dedizione e professionalità sono davvero stimolanti. Inoltre, dà priorità e cura il prodotto, garantendone il successo. La sua **passione per la crescita e l'attenzione ai dettagli** lo rendono una risorsa inestimabile per qualsiasi team.",
