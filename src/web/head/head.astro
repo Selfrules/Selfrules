@@ -6,6 +6,7 @@ import Favicons from './favicons.generated.astro';
 import InitialHash from './initial-hash.astro';
 import InitialTheme from './initial-theme.astro';
 import Meta from './meta.astro';
+import GoogleAnalytics from '../components/google-analytics.astro';
 
 interface Props {
   meta: MetaConfig;
@@ -16,6 +17,7 @@ const { meta, sections } = Astro.props;
 ---
 
 <head>
+  <GoogleAnalytics />
   <Meta meta={meta} />
   <Favicons />
   <InitialHash sections={sections} />
