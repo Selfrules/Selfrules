@@ -13,7 +13,7 @@ const { meta } = Astro.props;
 <meta name="generator" content={Astro.generator} />
 <title>{meta.title}</title>
 <meta name="description" content={meta.description} />
+<meta name="keywords" content={meta.keywords} />
 <meta property="og:title" content={meta.ogTitle ?? meta.title} />
 <meta property="og:description" content={meta.ogDescription ?? meta.description} />
-<meta property="keywords" content={meta.keywords} />
 {meta.ogImage && <meta property="og:image" content={meta.ogImage} />}
