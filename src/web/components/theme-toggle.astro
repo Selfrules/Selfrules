@@ -23,7 +23,7 @@ import Icon from './icon.astro';
       themeMeta[0].content = newTheme === 'dark' ? '#1a202c' : '#ffffff';
     }
 
-    document.documentElement.classList[newTheme === 'light' ? 'add' : 'remove']('dark');
+    document.documentElement.classList[newTheme === 'dark' ? 'add' : 'remove']('dark');
     localStorage.setItem('theme', newTheme);
   };
 
