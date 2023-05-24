@@ -52,4 +52,14 @@ export interface MetaConfig {
    * @see https://ahrefs.com/blog/open-graph-meta-tags
    */
   ogImage?: string;
+
+  keywords?: string;
+  subject?: string;
+  copyright?: string;
+  language?: string;
+  robots?: string;
+  url?: string;
+  coverage?: string;
+  distribution?: string;
+  subtitle?: string;
 }
