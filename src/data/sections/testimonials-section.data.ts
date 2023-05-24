@@ -26,6 +26,14 @@ const testimonialsSectionData = {
         "Ho avuto il piacere di lavorare a stretto contatto con **Mattia** in *LeadsBridge* e poi in *ActiveProspect* e posso dire con certezza che è un **product owner** eccezionale. Mattia mostra un grande senso di *responsabilità* nei confronti dei risultati e dimostra costantemente una **forte etica del lavoro, attenzione ai dettagli** e una genuina passione per il suo ruolo. La sua dedizione e professionalità sono davvero stimolanti. Inoltre, dà priorità e cura il prodotto, garantendone il successo. La sua **passione per la crescita e l'attenzione ai dettagli** lo rendono una risorsa inestimabile per qualsiasi team.",
       links: [linkedin({ url: 'https://www.linkedin.com/in/fiferri' })],
     },
+    {
+      image: import('@/assets/favorites/people/christian.jpeg'),
+      author: 'Christian Goss',
+      relation: 'Product Manager',
+      content:
+        "Durante il periodo trascorso insieme a *LeadsBridge* e *ActiveProspect*, **Mattia** ha dimostrato di essere un **Product Owner** esperto che eccelleva nel coordinamento di compiti molteplici. Il suo approccio alla **traduzione delle visioni in azioni pratiche** ha guidato il nostro prodotto. L'abile gestione di Mattia del framework **Scrum** e la sua competenza con strumenti come **JIRA** hanno aumentato significativamente la nostra efficienza. La sua capacità di *curare le relazioni* con i *clienti* e gli *stakeholder*, unita alla sua abilità nel dirigere il **ciclo di vita del prodotto**, lo hanno reso parte integrante del nostro team. Raccomando con entusiasmo Mattia per qualsiasi impresa orientata al prodotto.",
+      links: [linkedin({ url: 'https://www.linkedin.com/in/christian-goss' })],
+    },
   ],
 } as const satisfies ReadonlyDeep<TestimonialsSection>;
 
