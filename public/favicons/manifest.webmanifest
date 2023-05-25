@@ -1,0 +1,26 @@
+{
+  "name": "Mattia Filippo De Luca - Product Manager | Product Owner",
+  "short_name": "Mattia Filippo De Luca - Product Manager | Product Owner",
+  "description": "Sono Mattia, un visionario esperto di Product Management e un maestro nell'arte del Product Ownership.",
+  "dir": "auto",
+  "lang": "it-IT",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": ".",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "icons": [
+    {
+      "src": "/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

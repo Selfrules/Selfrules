@@ -8,9 +8,5 @@ node_modules
 dist
 stats.html
 
-# Favicon generation
-public/favicons
-*.generated.astro
-
 #docs
 docs
