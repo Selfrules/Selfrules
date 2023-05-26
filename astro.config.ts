@@ -1,13 +1,22 @@
 import image from '@astrojs/image';
 import tailwind from '@astrojs/tailwind';
 import compress from 'astro-compress';
-import astroI18next from 'astro-i18next';
 import { defineConfig } from 'astro/config';
 import { visualizer } from 'rollup-plugin-visualizer';
+import partytown from '@astrojs/partytown';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), image(), compress(), astroI18next()],
+  integrations: [
+    tailwind(),
+    image(),
+    compress(),
+    partytown({
+      config: {
+        forward: ['dataLayer.push'],
+      },
+    }),
+  ],
   vite: {
     plugins: [visualizer()],
     resolve: {
