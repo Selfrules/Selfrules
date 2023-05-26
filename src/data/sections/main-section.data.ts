@@ -15,6 +15,7 @@ const mainSectionData = {
   details: [
     { label: 'Email', value: 'info@selfrules.org', url: 'mailto:info@selfrules.org' },
     { label: 'Da', value: 'Modena, Italia' },
+    { label: 'Blog', value: 'Pensieri In Pixel', url: 'https://pensieriinpixel.org/' },
   ],
   pdfDetails: [
     { label: 'Email', value: 'info@selfrules.org' },
