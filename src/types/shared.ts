@@ -136,6 +136,7 @@ export interface DownloadButton {
    * If specified, the file will be downloaded immediately (without preview) in all browsers.
    */
   downloadedFileName?: string;
+  language: string;
 }
 
 export interface LinkButton {

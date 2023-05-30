@@ -49,7 +49,7 @@ export interface MainSection extends Section {
   /**
    * [WEB] A button that will be used to download your resume.
    */
-  action: DownloadButton;
+  action: DownloadButton[];
 
   /**
    * [WEB] Your social media profiles.

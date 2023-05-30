@@ -1,13 +1,14 @@
 ---
 import type { MainSection } from '@/types/sections/main-section.types';
 import Description from '@/web/components/description.astro';
-import DownloadButton from '@/web/components/download-button.astro';
+
 import LinkButton from '@/web/components/link-button.astro';
 import Photo from '@/components/photo.astro';
 import SectionCard from '@/web/components/section-card.astro';
 import TagsList from '@/web/components/tags-list.astro';
 import Typography from '@/web/components/typography.astro';
 import LabelledValue from '@/web/components/labelled-value.astro';
+import DownloadButton from '@/web/components/download-button.astro';
 
 export interface Props extends MainSection {}
 
@@ -24,7 +25,17 @@ const { action, config, description, details, fullName, image, links, role, tags
         height={320}
         class="h-24 w-24 max-w-none rounded-lg sm:h-36 sm:w-36 md:h-52 md:w-52"
       />
-      <DownloadButton {...action} />
+      {
+        action.map((button) => (
+          <DownloadButton
+            url={button.url}
+            downloadedFileName={button.downloadedFileName}
+            label={button.label}
+            language={button.language}
+            variant="button"
+          />
+        ))
+      }
     </div>
     <div class="flex w-full flex-col gap-5">
       <div class="flex w-full flex-col justify-between gap-2 sm:flex-row">
