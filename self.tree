@@ -1,0 +1,234 @@
+├── .editorconfig
+├── .gitbook.yaml
+├── .github
+│  ├── ISSUE_TEMPLATE
+│  │  ├── bug_report.md
+│  │  └── feature_request.md
+│  ├── renovate.json
+│  ├── scripts
+│  │  └── update-changelog.js
+│  └── workflows
+│    ├── create-issue-branch.yml
+│    ├── dependency-update-changelog.yml
+│    ├── main-branch.yml
+│    └── pull-request.yml
+├── .gitignore
+├── .npmrc
+├── .percy.json
+├── .prettierrc.yaml
+├── .vscode
+│  ├── extensions.json
+│  └── settings.json
+├── astro-i18next.config.mjs
+├── astro.config.ts
+├── blog.tree
+├── docs
+│  ├── .gitbook
+│  │  └── assets
+│  │    ├── clone-repository.png
+│  │    ├── device-dimensions.png
+│  │    ├── device-mode.png
+│  │    ├── fork-repository.png
+│  │    ├── netlify-build-settings.png
+│  │    ├── netlify-connect-github.png
+│  │    ├── netlify-deployed-site.png
+│  │    ├── netlify-import-project.png
+│  │    └── netlify-pick-repository.png
+│  ├── contributing.md
+│  ├── data-transformation.md
+│  ├── pdf-generation.md
+│  ├── README.md
+│  ├── setup-guide.md
+│  └── SUMMARY.md
+├── package-lock.json
+├── package.json
+├── postcss.config.cjs
+├── public
+│  ├── cv.pdf
+│  ├── favicons
+│  │  ├── android-chrome-192x192.png
+│  │  ├── android-chrome-512x512.png
+│  │  ├── apple-touch-icon.png
+│  │  ├── favicon-16x16.png
+│  │  ├── favicon-32x32.png
+│  │  ├── favicon.ico
+│  │  └── manifest.webmanifest
+│  ├── fonts
+│  │  └── Inter-roman.var.woff2
+│  └── locales
+│    ├── en
+│    │  └── translation.json
+│    └── it
+│      └── translation.json
+├── README.md
+├── robots.txt
+├── scripts
+│  ├── generate-favicons.ts
+│  └── generate-pdf.ts
+├── src
+│  ├── assets
+│  │  ├── favorites
+│  │  │  ├── books
+│  │  │  │  ├── escaping-the-build-trap.jpg
+│  │  │  │  ├── inspired.jpg
+│  │  │  │  ├── product-mastery.jpg
+│  │  │  │  └── user-story-mapping.jpg
+│  │  │  └── people
+│  │  │    ├── christian.jpeg
+│  │  │    ├── filo.jpeg
+│  │  │    ├── geoff-watts.jpeg
+│  │  │    ├── jeff-patton.jpeg
+│  │  │    ├── ken-norton.jpeg
+│  │  │    ├── marty-cagan.jpeg
+│  │  │    ├── matte.jpeg
+│  │  │    ├── melissa-perri.jpeg
+│  │  │    └── roman-pichler.jpeg
+│  │  ├── logos
+│  │  │  ├── ap-logo.jpg
+│  │  │  ├── badge-7224.png
+│  │  │  ├── badge-7227.png
+│  │  │  ├── diploma.png
+│  │  │  ├── e-xtrategy-logo.jpg
+│  │  │  ├── flowing-icon.png
+│  │  │  ├── footer-logo.jpg
+│  │  │  ├── LeadsBridge_icon_logo.jpg
+│  │  │  ├── master.png
+│  │  │  ├── selfrules_logo_mad.png
+│  │  │  └── selfrules.jpeg
+│  │  ├── my-image.jpg
+│  │  ├── my-image.png
+│  │  ├── portfolio
+│  │  │  ├── gfl.jpg
+│  │  │  └── LeadsBridge_icon_logo.jpg
+│  │  └── selfrules_pattern_mad.png
+│  ├── components
+│  │  ├── description.astro
+│  │  ├── fonts.astro
+│  │  ├── icons
+│  │  └── photo.astro
+│  ├── data
+│  │  ├── _internals
+│  │  │  ├── create-link-factory.ts
+│  │  │  ├── create-skill-factory.ts
+│  │  │  ├── get-cv-data.ts
+│  │  │  ├── transform-data.ts
+│  │  │  └── transformers.ts
+│  │  ├── config.ts
+│  │  ├── helpers
+│  │  │  ├── links.ts
+│  │  │  └── skills.ts
+│  │  ├── index.ts
+│  │  └── sections
+│  │    ├── education-section.data.ts
+│  │    ├── experience-section.data.ts
+│  │    ├── favorites-section.data.ts
+│  │    ├── index.ts
+│  │    ├── main-section.data.ts
+│  │    ├── portfolio-section.data.ts
+│  │    ├── skills-section.data.ts
+│  │    └── testimonials-section.data.ts
+│  ├── env.d.ts
+│  ├── layouts
+│  ├── pages
+│  │  ├── categories
+│  │  ├── index.astro
+│  │  ├── pdf.astro
+│  │  └── posts
+│  ├── pdf
+│  │  ├── components
+│  │  │  ├── dashed-divider.astro
+│  │  │  ├── date-range-tag.astro
+│  │  │  ├── description.astro
+│  │  │  ├── footer.astro
+│  │  │  ├── labelled-value.astro
+│  │  │  ├── list-item-heading.astro
+│  │  │  ├── photo.astro
+│  │  │  ├── section-heading.astro
+│  │  │  └── tags-list.astro
+│  │  └── sections
+│  │    ├── education-section.pdf.astro
+│  │    ├── experience-section.pdf.astro
+│  │    ├── main-section.pdf.astro
+│  │    ├── portfolio-section.pdf.astro
+│  │    └── skills-section.pdf.astro
+│  ├── styles
+│  ├── types
+│  │  ├── config
+│  │  │  ├── i18n-config.types.ts
+│  │  │  ├── meta-config.types.ts
+│  │  │  └── pdf-config.types.ts
+│  │  ├── data.ts
+│  │  ├── sections
+│  │  │  ├── education-section.types.ts
+│  │  │  ├── experience-section.types.ts
+│  │  │  ├── favorites-section.types.ts
+│  │  │  ├── main-section.types.ts
+│  │  │  ├── portfolio-section.types.ts
+│  │  │  ├── skills-section.types.ts
+│  │  │  └── testimonials-section.types.ts
+│  │  └── shared.ts
+│  ├── utils
+│  │  └── format-date-range.ts
+│  └── web
+│    ├── components
+│    │  ├── description.astro
+│    │  ├── divided-list.astro
+│    │  ├── divider.astro
+│    │  ├── download-button.astro
+│    │  ├── google-analytics.astro
+│    │  ├── icon.astro
+│    │  ├── labelled-value.astro
+│    │  ├── layout.astro
+│    │  ├── link-button.astro
+│    │  ├── section-card.astro
+│    │  ├── sidebar-item.astro
+│    │  ├── sidebar.astro
+│    │  ├── tag.astro
+│    │  ├── tags-list.astro
+│    │  ├── theme-toggle.astro
+│    │  ├── thumbnail.astro
+│    │  ├── timestamp.astro
+│    │  └── typography.astro
+│    ├── head
+│    │  ├── favicons.generated.astro
+│    │  ├── head.astro
+│    │  ├── initial-hash.astro
+│    │  ├── initial-theme.astro
+│    │  └── meta.astro
+│    ├── scripts
+│    │  └── initialize-tooltips.ts
+│    ├── sections
+│    │  ├── education
+│    │  │  ├── diploma.astro
+│    │  │  └── education-section.web.astro
+│    │  ├── experience
+│    │  │  ├── experience-section.web.astro
+│    │  │  └── job.astro
+│    │  ├── favorites
+│    │  │  ├── book-tile.astro
+│    │  │  ├── favorites-section.web.astro
+│    │  │  ├── favorites-sub-section.astro
+│    │  │  ├── media-tile.astro
+│    │  │  ├── person-tile.astro
+│    │  │  └── video-tile.astro
+│    │  ├── main
+│    │  │  └── main-section.web.astro
+│    │  ├── portfolio
+│    │  │  ├── portfolio-section.web.astro
+│    │  │  └── project.astro
+│    │  ├── skills
+│    │  │  ├── levelled-skill.astro
+│    │  │  ├── skill-level-tile.astro
+│    │  │  ├── skill-level.astro
+│    │  │  ├── skill-set.astro
+│    │  │  └── skills-section.web.astro
+│    │  └── testimonials
+│    │    ├── testimonial.astro
+│    │    └── testimonials-section.web.astro
+│    └── utils
+│      ├── env.ts
+│      ├── hash-state.ts
+│      └── throttle.ts
+├── tailwind.config.cjs
+├── tools
+└── tsconfig.json
