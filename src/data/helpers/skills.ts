@@ -283,3 +283,59 @@ export const trello = createSkillFactory({
   iconColor: '#0052CC',
   url: '',
 });
+
+export const sheets = createSkillFactory({
+  name: 'Google Sheets',
+  icon: 'simple-icons:googlesheets',
+  iconColor: '#34A853',
+  url: '',
+});
+
+export const calendar = createSkillFactory({
+  name: 'Google Calendar',
+  icon: 'simple-icons:googlecalendar',
+  iconColor: '#4285F4',
+  url: '',
+});
+
+export const analytics = createSkillFactory({
+  name: 'Google Analytics',
+  icon: 'simple-icons:googleanalytics',
+  iconColor: '#E37400',
+  url: '',
+});
+
+export const miro = createSkillFactory({
+  name: 'Miro',
+  icon: 'simple-icons:miro',
+  iconColor: '#050038',
+  url: '',
+});
+
+export const hubspot = createSkillFactory({
+  name: 'HubSpot',
+  icon: 'simple-icons:hubspot',
+  iconColor: '#FF7A59',
+  url: '',
+});
+
+export const salesforce = createSkillFactory({
+  name: 'Salesforce',
+  icon: 'simple-icons:salesforce',
+  iconColor: '#00A1E0',
+  url: '',
+});
+
+export const mailchimp = createSkillFactory({
+  name: 'MailChimp',
+  icon: 'simple-icons:mailchimp',
+  iconColor: '#FFE01B',
+  url: '',
+});
+
+export const teams = createSkillFactory({
+  name: 'Microsoft Teams',
+  icon: 'simple-icons:microsoftteams',
+  iconColor: '#6264A7',
+  url: '',
+});
