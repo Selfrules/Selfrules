@@ -63,7 +63,7 @@ const portfolioSectionData = {
       dates: [new Date('2016-10'), new Date('2021-01')],
       details: [
         { label: 'Team', value: '7 persone' },
-        { label: 'Ruolo', value: ['Ux/Ui Designer', 'Front-end Developer', 'Project Manager'] },
+        { label: 'Ruolo', value: ['UX/UI Designer', 'Front-end Developer', 'Project Manager'] },
         { label: 'Azienda', value: 'Giuffrè Francis Lefebvre' },
         { label: 'Settore', value: ['Legale', 'Gestionale Studi Legali'] },
       ],
