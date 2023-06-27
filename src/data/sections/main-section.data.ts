@@ -33,16 +33,9 @@ const mainSectionData = {
   ],
   action: [
     {
-      label: 'CV - IT',
-      url: '/cv.pdf',
-      downloadedFileName: 'cv_De_Luca_IT.pdf',
-      language: 'Italiano',
-    },
-    {
-      label: 'CV - EN',
-      url: '/cv_De_Luca_en.pdf',
-      downloadedFileName: 'cv_De_Luca_en.pdf',
-      language: 'english',
+      label: 'CV - PDF',
+      url: '/MattiaFilippo_DeLuca_Resume.pdf',
+      downloadedFileName: 'MattiaFilippo_DeLuca_Resume.pdf',
     },
   ],
   links: [linkedin({ url: 'https://www.linkedin.com/in/selfrules/' }), github({ url: 'https://github.com/Selfrules' })],
