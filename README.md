@@ -1,21 +1,25 @@
-# 👋 Ciao, sono Mattia! 🚀
+# Mattia De Luca
 
-Benvenuto nel mio spazio personale su GitHub! Sono un appassionato di Product Management, e un artista nell'arte del Product Ownership. 🎨
+Senior Technical Product Manager. I prototype in code, design the UX, and ship.
 
-![Product Management](https://img.shields.io/badge/-Product%20Management-blue?style=flat-square) ![Product Ownership](https://img.shields.io/badge/-Product%20Ownership-red?style=flat-square)
+## What I do
 
-🔭 Mi piace portare avanti progetti complessi e navigare tra le sfide con curiosità e determinazione. Sono un eterno studente, sempre pronto ad apprendere e migliorare le mie abilità in questo campo affascinante.
+I fix products that aren't working and build the ones that should exist. Specialized in B2B SaaS, payments infrastructure, and platform products.
 
-🌱 Creo prodotti che incantano gli utenti, e mi piace rimanere al passo con le ultime tendenze e tecnologie.
+Stabilized a payment system from crisis to 99%+ uptime across 5 countries. Redesigned a core integration flow, cutting setup time by 35%. Shipped a cashless product from zero to live pilot in 5 months.
 
-🌟 La mia esperienza mi ha trasformato in un viaggiatore instancabile nel vasto universo della gestione dei prodotti. Credo nel mio potere di plasmare stelle di successo nel firmamento dei prodotti, e nel contribuire alla realizzazione degli obiettivi astrali dell'organizzazione.
+## Background
 
-🌍 Amo viaggiare, scoprire nuove culture e gusti, trovare ispirazione nelle piccole cose e trarre energia dall'essere sempre in movimento.
+Designer (4 yrs) → Full-stack Developer (4 yrs) → Product Manager (5+ yrs). The path wasn't a career change — it was accumulation. I speak design, code, and business without an interpreter.
 
-📫 Se vuoi raggiungermi, sentiti libero di inviarmi un'email a [info@selfrules.org](mailto:info@selfrules.org) o contattami sui Linkedin!
+## Current
 
-- LinkedIn: [Mattia](https://linkedin.com/in/Selfrules)
+- **Product Manager** at QubicaAMF Worldwide — payments, platform, cashless
+- **[CasaHunter](https://selfrules.org/lab/casahunter)** — AI apartment-hunting tool I built to solve my own problem
+- **[selfrules.org](https://selfrules.org)** — case studies, blog, and everything else
 
-🔮 E ricorda, i limiti sono spesso soltanto delle illusioni. Grazie per essere passato!
+## Links
 
-👋 Ciao!
+- [selfrules.org](https://selfrules.org) — portfolio and case studies
+- [LinkedIn](https://linkedin.com/in/selfrules)
+- [hello@selfrules.org](mailto:hello@selfrules.org)
